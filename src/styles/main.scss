@@ -1,0 +1,31 @@
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding-top: 0;
+  letter-spacing: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #126C77;
+  line-height: 64px;
+  box-flex: 1;
+  flex: 1;
+}
+
+$homepage_bgcolor:#c3c3c3;
+$text-color:#000;
+
+
+.outermain{margin:0 auto; width:340px; background-color:$homepage_bgcolor; height:200px;}
+.username_text{color:$text-color; text-align:right; font-weight:bold; width:100px; padding:10px; float:left;}
+.username_input{color:$text-color; width:100px; padding:10px; float:left;}
+.header-area{background-color:#c3c3c3; padding:5px; width:100%;}
+body{margin:0px; padding:0px;}
+.footer-area{background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;}
+	.nav-menu{margin:0px; padding:0px;}
+	.nav-menu ul{text-decoration:none;}
+	.nav-menu ul li{display:inline; padding:10px;}
